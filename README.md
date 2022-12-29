@@ -5,4 +5,4 @@
 
 # Minecraft Bedrock Server
 ## click the link:
-### qiues.github.io
+### § qiues.github.io

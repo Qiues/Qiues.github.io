@@ -4,5 +4,5 @@
 ### so i come to Github......
 ------
 # Minecraft Bedrock Server
-## click the link:
+## click the link:  (however,it can't click...)
 ### qiues.github.io

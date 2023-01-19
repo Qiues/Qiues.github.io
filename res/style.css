@@ -1,0 +1,28 @@
+button
+{
+    width: 600px;/*按钮宽度*/
+    height: 60px;/*按钮高度*/
+    color:white;/*字体颜色*/
+    background-color:cornflowerblue;/*按钮背景颜色*/
+    border-radius: 20px;/*按钮圆滑*/
+    border-width: 2;/*按钮的边框*/
+    margin: 0;
+    outline: none;/*取消轮廓*/
+    font-family:'Trebuchet MS';/*字体*/
+    font-size: 25px;/*字体大小*/
+    text-align: center;/*字体居中*/
+    cursor: pointer;/*鼠标箭头手势*/
+}
+button:hover
+{
+    background-color: antiquewhite;
+    color:blueviolet;
+}
+/*
+.about
+{
+    position: fixed;
+    font-family:'Gill Sans';
+    bottom: 0px;
+}
+*/

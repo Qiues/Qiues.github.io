@@ -4,115 +4,61 @@
 <head>
     <meta charset="utf-8" />
     <title>QiuMc</title>
-    <script>
-      function QiutorHome()
-      {
-        window.open("https://qiues.github.io/Qiutor"); 
-      }
-    </script>
-    <style>
-      button{
-        display: block;
-        margin: 100px auto;
-      }
-
-      button:hover {
-        cursor: pointer;
-      }
-
-      .button-3d-1 {
-        position: relative;
-        background: orangered;
-        border: none;
-        color: white;
-        padding: 15px 24px;
-        font-size: 1.4rem;
-        /* hsl(hue, saturation, lightness) */
-        box-shadow: -6px 6px 0 hsl(16, 100%, 30%);
-        outline: none;
-      }
-
-      .button-3d-1:hover {
-        background: hsl(16, 100%, 45%);
-      }
-
-      .button-3d-1:active {
-        background: hsl(16, 100%, 40%);
-        top: 3px;
-        left: -3px;
-        box-shadow: -3px 3px 0 hsl(16, 100%, 30%);
-      }
-
-      .button-3d-1::before {
-        position: absolute;
-        display: block;
-        content: "";
-        height: 0;
-        width: 0;
-
-        border:  6px solid transparent;
-        border-right: 6px solid hsl(16, 100%, 30%);
-        border-left-width: 0px;
-        top: 0;
-        left: -6px;
-      }
-
-      .button-3d-1::after {
-        position: absolute;
-        display: block;
-        content: "";
-        height: 0;
-        width: 0;
-
-        border: 6px solid transparent;
-        border-top: 6px solid hsl(16, 100%, 30%);
-        border-bottom-width: 0px;
-        bottom: -6px;
-        right: 0;
-      } 
-
-      .button-3d-1:active::before {
-        border: 3px solid transparent;
-        border-right: 3px solid hsl(16, 100%, 30%);
-        border-left-width: 0px;
-        left: -3px;
-      }
-
-      .button-3d-1:active::after {
-        border: 3px solid transparent;
-        border-top: 3px solid hsl(16, 100%, 30%);
-        border-bottom-width: 0px;
-        bottom: -3px;
-      }
-    </style>
+    	<style>
+        button
+        {
+          width: 800px;/*设置按钮宽度*/
+          height: 80px;/*设置按钮高度*/
+          color:white;/*字体颜色*/
+          background-color:cornflowerblue;/*按钮背景颜色*/
+          border-radius: 3px;/*让按钮变得圆滑一点*/
+          border-width: 0;/*消去按钮丑的边框*/
+          margin: 0;
+          outline: none;/*取消轮廓*/
+          font-family:'Trebuchet MS';/*字体设置为??*/
+          font-size: 17px;/*设置字体大小*/
+          text-align: center;/*字体居中*/
+          cursor: pointer;/*设置鼠标箭头手势*/
+        }
+        button:hover
+        {
+          background-color: antiquewhite;
+          color:blueviolet;
+        }
+      </style>
 </head>
     <body background="res/Background.png"
     style="background-repeat:no-repeat;
     background-size:100% 100%;
     background-attachment:fixed;">
       <div align="center">
-        <font size="50",color="black"><strong>Qiues' Website</strong></font>
+        <br/>
+        <font size="50" style="font-family:'Franklin Gothic Medium';"><strong>Qiues' Website</strong></font>
+        <br/>
         <hr/>
+        <br/>
 	        <div></div>
-	        <span><font size="20",color="green"><a id="server" href="server.html" target="_blank" style="color:green;"><u>Minecraft Bedrock Server</u></a></font></span>
+          <button type="button" class="_botton" onclick="window.location.href='https://qiues.github.io/server.html'"><font size="20">Minecraft-BD (Server)</font></button>
 	      <div></div>
-	        <span><font size="20",color="green"><a href="server/index.html" target="_blank" style="color:green;"><u>Minecraft Java</u></a></font></span>
-	        <hr/>  
+        <br/>
+          <button type="button" class="_botton" onclick="window.location.href='https://qiues.github.io/server/index.html'"><font size="20">Minecraft-JE</font></button>
 	      <div></div>
-	        <span><font size="20",color="red"><a href="downloads/index.html" target="_blank" style="color:red;"><u>Software</u></a></font></span>
+        <br/>
+          <button type="button" class="_botton" onclick="window.location.href='https://qiues.github.io/downloads/index.html'"><font size="20">Software</font></button>
         <div></div>
-	        <span><font size="20",color="black"><a href="game/index.html" target="_blank" style="color:black;"><u>LittleGame</u></a></font></span>
+        <br/>
+          <button type="button" class="_botton" onclick="window.location.href='https://qiues.github.io/game/index.html'"><font size="20">LittleGame</font></button>
         <div></div>
-          <br/>
-          <br/>
-          <br/>
-          <button type="button" class="button-3d-1" onclick="QiutorHome()">Qiutor的个人主页</button>
+        <br/>
+          <button type="button" class="_botton" onclick="window.location.href='https://qiues.github.io/Qiutor/index.html'"><font size="20">Qiutor's HomePage</font></button>
+      <br/>
+      <br/>
+      <font style="text-align: center;size:50px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">— by <font style="color:rgb(61, 152, 255)">poiuasdf163</font> & <font style="color:rgb(61, 152, 255)">Qiutor</font></font>
       </div>
   </body>
 </html>
  <!--
-Make by Qiutor
-version:1.1
+Make by _Qiutor.
 Data:2022.11.30
 for players:
     Lili

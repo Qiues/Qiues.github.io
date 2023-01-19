@@ -4,7 +4,38 @@
 <head>
     <meta charset="utf-8" />
     <title>QiuMc</title>
+    <script>
+        function copyToClip(content, message)
+        {
+            var aux = document.createElement("input"); 
+            aux.setAttribute("value", content); 
+            document.body.appendChild(aux); 
+            aux.select();
+            document.execCommand("copy"); 
+            document.body.removeChild(aux);
+        }
+    </script>
 	<style>
+        button
+        {
+          width: 200px;/*设置按钮宽度*/
+          height: 40px;/*设置按钮高度*/
+          color:white;/*字体颜色*/
+          background-color:cornflowerblue;/*按钮背景颜色*/
+          border-radius: 3px;/*让按钮变得圆滑一点*/
+          border-width: 0;/*消去按钮丑的边框*/
+          margin: 0;
+          outline: none;/*取消轮廓*/
+          font-family:'Trebuchet MS';/*字体设置为??*/
+          font-size: 17px;/*设置字体大小*/
+          text-align: center;/*字体居中*/
+          cursor: pointer;/*设置鼠标箭头手势*/
+        }
+        button:hover
+        {
+          background-color: antiquewhite;
+          color:blueviolet;
+        }
 		/*
         html{
             filter: gray;
@@ -35,6 +66,15 @@ background-attachment:fixed;">
 	    <div></div>
 	    <span><font size="5"><u>PORT:</u></font><font size="5" color="green">&ensp;14423</font></span>
 	    <div></div>
+        <br/>
+        <button onclick="copyToClip('qiues.qiumc.eu.org')"><font size="5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Copy 'IP'</font></button>
+        <div></div>
+        <br/>
+        <button onclick="copyToClip('14423')"><font size="5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Copy 'PORT'</font></button>
+        <div></div>
+        <br/>
+        <button type="button" class="_botton" onclick="window.location.href='https://qiues.github.io/index.html'"><font size="5" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">← Back</font></button>
+        <div></div>
 	</h5>
 </body>
 </html>

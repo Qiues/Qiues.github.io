@@ -4,6 +4,12 @@ git commit -m "Update"
 git push
 git status
 
+git config --global http.sslVerify true
+git config --global https.sslVerify true
+
+git config --global http.proxy http://127.0.0.1:31181
+git config --global https.proxy https://127.0.0.1:31181
+
 # to commit the changes
  <!--
 Make by Qiutor

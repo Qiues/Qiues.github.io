@@ -7,8 +7,14 @@ git status
 git config --global http.sslVerify true
 git config --global https.sslVerify true
 
+git config --global http.sslVerify false
+git config --global https.sslVerify false
+
 git config --global http.proxy http://127.0.0.1:31181
 git config --global https.proxy https://127.0.0.1:31181
+
+git config --global user.name 
+git config --global user.email 
 
 # to commit the changes
  <!--

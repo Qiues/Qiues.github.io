@@ -5,7 +5,6 @@ git push
 git status
 
 # to commit the changes
-
  <!--
 Make by Qiutor
 version:1.0

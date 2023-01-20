@@ -12,7 +12,7 @@
 # Minecraft Bedrock Server
 ## ↑ __Click the link__ ↑ ~~*(好吧他点击不了...)*~~
 ------
-> [这个可以点击😁😁😁](qiues.github.io "页面")  
+> [这个可以点击😁😁😁](https://qiues.github.io/server.html "页面")  
 
 [![Qiues'Called](https://img.shields.io/badge/TEAM-Qiues-green.svg?logo=angular&style=for-the-badge)](https://github.com/Qiues)
 [![Qiues'Called](https://img.shields.io/badge/SERVER-BDS-green.svg?logo=angular&style=for-the-badge)](https://github.com/Qiues)

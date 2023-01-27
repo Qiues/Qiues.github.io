@@ -10,8 +10,16 @@ font{
 }
 button
 {
-    width: 600px;       /*按钮宽度*/
-    height: 60px;       /*按钮高度*/
+    /*
+    image-rendering: -moz-crisp-edges;   
+    image-rendering: -o-crisp-edges;      
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges; 
+    -ms-interpolation-mode: nearest-neighbor;
+    */
+    background-repeat:no-repeat;
+    width: 400px;       /*按钮宽度*/
+    height: 40px;       /*按钮高度*/
     background-image: url('buttom.png');
     background-size: 100%;
     color:white;      /*字体颜色*/

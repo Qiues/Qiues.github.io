@@ -2,7 +2,7 @@ git status
 git add .
 git commit -m "Update"
 git push
-git status
+git status 
 
 git config --global http.sslVerify true
 git config --global https.sslVerify true

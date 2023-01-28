@@ -18,8 +18,8 @@ button
     -ms-interpolation-mode: nearest-neighbor;
     */
     background-repeat:no-repeat;
-    width: 400px;       /*按钮宽度*/
-    height: 40px;       /*按钮高度*/
+    width: 500px;       /*按钮宽度*/
+    height: 50px;       /*按钮高度*/
     background-image: url('buttom.png');
     background-size: 100%;
     color:white;      /*字体颜色*/

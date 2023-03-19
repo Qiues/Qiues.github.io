@@ -17,6 +17,7 @@ button
     image-rendering: crisp-edges; 
     -ms-interpolation-mode: nearest-neighbor;
     */
+    font-family: minecraft.tff;
     background-repeat:no-repeat;
     width: 500px;       /*按钮宽度*/
     height: 50px;       /*按钮高度*/

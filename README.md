@@ -15,7 +15,7 @@
 
 > [这个可以点击😁😁😁](https://qiues.github.io/server.html "页面")  
 > [这个可以点击😁😁😁](https://github.com/Qiues/Qiues.github.io/raw/main/server/plain%20craft%20launcher%202.exe "页面") 
-> [这个可以点击😁😁😁]( "页面")
+> [这个可以点击😁😁😁](https://yshs.lanzouo.com/b09yhwgdc "页面")
 
 [![Qiues'Called](https://img.shields.io/badge/TEAM-Qiues-green.svg?logo=angular&style=for-the-badge)](https://github.com/Qiues)
 [![Qiues'Called](https://img.shields.io/badge/SERVER-BDS-green.svg?logo=angular&style=for-the-badge)](https://github.com/Qiues)
